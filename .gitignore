@@ -75,3 +75,18 @@ yarn-error.log
 .expo
 dist/
 web-build/
+
+# 민감정보 파일들
+*.keystore
+*.jks
+*.p12
+*.key
+*.pem
+.env
+.env.local
+.env.production
+.env.development
+
+# 키스토어 백업 파일들
+*.keystore.backup
+makefood-release-key.keystore*
