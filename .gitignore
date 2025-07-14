@@ -1,92 +1,50 @@
-# OSX
-#
-.DS_Store
-
-# Xcode
-#
-build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata
-*.xccheckout
-*.moved-aside
-DerivedData
-*.hmap
-*.ipa
-*.xcuserstate
-**/.xcode.env.local
-
-# Android/IntelliJ
-#
-build/
-.idea
-.gradle
-*.iml
-*.hprof
-.cxx/
-.kotlin/
-
-# node.js
-#
-node_modules/
-npm-debug.log
-yarn-error.log
-
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
-# screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/
-
-**/fastlane/report.xml
-**/fastlane/Preview.html
-**/fastlane/screenshots
-**/fastlane/test_output
-
-# Bundle artifact
-*.jsbundle
-
-# Ruby / CocoaPods
-**/Pods/
-/vendor/bundle/
-
-# Temporary files created by Metro to check the health of the file watcher
-.metro-health-check*
-
-# testing
-/coverage
-
-# Yarn
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
-
-# Expo
-.expo
-dist/
-web-build/
-
-# 민감정보 파일들
-*.keystore
-*.jks
-*.p12
-*.key
+# Sensitive Files - DO NOT COMMIT
+makefood-deploy-user_accessKeys.csv
+makefood-key.pem
 *.pem
 .env
 .env.local
-.env.production
-.env.development
+.env.*.local
 
-# 키스토어 백업 파일들
-*.keystore.backup
-makefood-release-key.keystore*
+# IDE Files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Build Files
+build/
+dist/
+target/
+out/
+
+# Node Modules
+node_modules/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Gradle
+.gradle/
+gradlew
+gradlew.bat
+gradle/wrapper/
+
+# Test Results
+test-results/
+coverage/
+
+# Temporary Files
+temp/
+tmp/
+*.tmp 
