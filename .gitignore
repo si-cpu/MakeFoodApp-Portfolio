@@ -1,0 +1,53 @@
+# Sensitive Files
+makefood-deploy-user_accessKeys.csv
+makefood-key.pem
+*.pem
+
+# IDE Files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment Files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build Files
+build/
+dist/
+target/
+out/
+
+# Node Modules
+node_modules/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Gradle
+.gradle/
+gradlew
+gradlew.bat
+gradle/wrapper/
+
+# Test Results
+test-results/
+coverage/
+
+# Temporary Files
+temp/
+tmp/
+*.tmp
